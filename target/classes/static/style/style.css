@@ -1,0 +1,56 @@
+.bg-navbar{
+    background-color: #2E7523;
+}
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    background-image: url("https://img.freepik.com/fotos-gratis/reflexo-de-lente-solar-cenica-brilhando-atraves-de-arvores-fotografia-da-natureza_53876-104092.jpg?t=st=1650824045~exp=1650824645~hmac=24b4e23db34a51cb1b258663bebae59b7e8ec70c15a3cbc4ab366df2b10d0574&w=996");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.carousel-caption{
+    left: 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+    font-size: 55px;
+    color: white;
+}
+.carousel-control-next-icon:after
+{
+    content: '>';
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+}
+
+.bg-card{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+

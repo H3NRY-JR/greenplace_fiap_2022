@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+    <title>Greenplace</title>
+    <link href="style/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<!--START OF NAVIGATION-->
+<nav class="navbar navbar-expand-lg navbar-light bg-navbar fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Greenplace</a>
+        <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active text-white" href="#">Suas encomendas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Nossos postos de retirada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white">Ajuda</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--END OF NAVIGATION-->
+
+<!--START OF MAIN CONTENT-->
+<main class="container" role="main">
+
+    <!--START OF ABOUT TITLE-->
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Sobre Nós</h1>
+            <p class="lead text-muted">Conheça nossa história!</p>
+        </div>
+    </section>
+    <!--END OF ABOUT TITLE-->
+
+    <!--START OF CAROUSEL-->
+    <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carouselExampleCaptions">
+        <div class="carousel-indicators">
+            <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                    data-bs-target="#carouselExampleCaptions" type="button"></button>
+            <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+            <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleCaptions"
+                    type="button"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="..." class="d-block w-100 rounded"
+                     src="https://img.freepik.com/fotos-gratis/trabalhadora-do-armazem-segurando-um-tablet-verificando-o-estoque-no-armazem_342744-1557.jpg?w=996&t=st=1650826704~exp=1650827304~hmac=8d8090466586705727a3e31a161077aadcf87ec704a52d56a95d05e7e85ae909">
+                <div class="carousel-caption d-none d-md-block bg-secondary w-100">
+                    <p>Somos um marketplace famoso pelo tempo de entrega. Diferente dos demais marketplaces, a
+                        Greenplace
+                        cuida de toda a logística dos produtos ofertados em seu espaço. Mantemos armazéns com um estoque
+                        dos produtos nossos parceiros de acordo com a demanda necessária. Para oferecer esse tipo de
+                        serviço, possuímos dentro de nosso sistema toda a rastreabilidade dos clientes, desde produtos
+                        visitados até a localização dos clientes, através dos endereços de entregas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100 rounded"
+                     src="https://img.freepik.com/fotos-gratis/embalagem-de-caixa-de-papel-para-conceito-de-entrega_53876-127190.jpg?w=1060&t=st=1650664698~exp=1650665298~hmac=4a5a766029ae307caf72d6d35809e14b8f98e1f84dbfd31cc64219fa128b7d09">
+                <div class="carousel-caption d-none d-md-block bg-secondary w-100">
+                    <p>Por cuidarmos de toda a parte logística, conseguimos realizar a entrega no mesmo dia para todos
+                        os pedidos realizados pela manhã e ainda garantimos que os pedidos em determinada região, como
+                        grandes centros comerciais, sejam atendidos em até 4 horas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="..." class="d-block w-100 rounded"
+                     src="https://img.freepik.com/fotos-gratis/homem-perto-do-caminhao-cara-com-um-uniforme-de-entrega-homem-com-uma-mascara-medica-conceito-de-coronavirus_1157-46180.jpg?t=st=1650827525~exp=1650828125~hmac=fa0fac3ea2660e32589ecbf48ccb0b873d02899ff9925be5682d15dbf72c5d08&w=996">
+                <div class="carousel-caption d-none d-md-block bg-secondary w-100">
+                    <p>Todas as entregas são feitas com caminhões e minivans, dependendo da restrição da região. Em
+                        alguns casos, a entrega é realizada utilizando pequenos carros de passeio.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions"
+                type="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions"
+                type="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--END OF CAROUSEL-->
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Logistíca sustentável. <br/><span
+                    class="text-muted">Cuidando de você e do planeta.</span></h2>
+            <p class="lead">Em 2021, a Greenplace foi selecionada para fazer toda a logística de uma cidade modelo,
+                desde que tenha uma visão mais voltada ao meio ambiente. Nesse sentido, nos tormanos mais sustentáveisl
+                e ligados à realidade das pessoas em questão de
+                mobilidade e praticidade.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                 alt="Generic placeholder image"
+                 src="https://img.freepik.com/vetores-gratis/simbolo-de-tecnologia-limpa-de-vetor-de-icone-de-lampada-ambiental_53876-111867.jpg?w=740&t=st=1650829351~exp=1650829951~hmac=f2cc48773e0052bbd58d1417e9e372e1455580718e50b3d28f85956f1445532d">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Um caminho verde. <br/><span class="text-muted">Chegando até você de forma verde.</span>
+            </h2>
+            <p class="lead">Nossas novas frotas de Patinetes elétricos e bicicletas permitem que entreguemos seus
+                produtos a partir de nossos centros de entrega, chegando até você colaborando com o meio
+                ambiente.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                 alt="Generic placeholder image"
+                 src="https://img.freepik.com/fotos-gratis/grupo-de-scooters-eletricos-de-aluguel-esta-estacionado-na-rua_98862-2615.jpg?w=996">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Mais perto de você. <br/> <span class="text-muted">Temos diversos postos de retirada.</span>
+            </h2>
+            <p class="lead">Nossos postos de retirada estão sempre disponíveis para agendar suas encomendas com
+                desconto no frete e para que você possa te-las em mão o mais rápido possível.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                 alt="Generic placeholder image"
+                 src="https://img.freepik.com/fotos-gratis/movel-com-mapas-do-google_1134-132.jpg?w=1060&t=st=1650830831~exp=1650831431~hmac=dd59bf3bccd3adce12983d26eaa208e40b0d55f83f0a870137f831cfcb10c288">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Aonde quer que esteja. <br/><span class="text-muted">Entregamos em suas mãos.</span>
+            </h2>
+            <p class="lead">Caso não consiga receber a encomenda em casa, marque um local para recebe-la com nosso serviço de entrega pessoal. Levamos o que você precisa até você em qualquer lugar.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto"
+                 alt="Generic placeholder image"
+                 src="https://img.freepik.com/fotos-gratis/imagem-recortada-de-mulher-treinando-ao-ar-livre-e-rastreando-sua-rota-de-aptidao-no-celular_273609-6170.jpg?w=1060&t=st=1650830878~exp=1650831478~hmac=e85f1263af46206356334711295f94b5798041ac0d02f98624be5522ae2c69aa">
+        </div>
+    </div>
+    <!-- /END THE FEATURETTES -->
+
+</main>
+
+<script crossorigin="anonymous" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet">
+    <title></title>
+    <link href="style/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<!--START OF NAVIGATION-->
+<nav class="navbar navbar-expand-lg navbar-light bg-navbar fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Greenplace</a>
+        <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a aria-current="page" class="nav-link active text-white" href="#">Suas encomendas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Nossos postos de retirada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled text-white">Ajuda</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--END OF NAVIGATION-->
+
+<!--START OF MAIN CONTENT-->
+<main class="container" role="main">
+
+    <!--START OF ABOUT TITLE-->
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Nossos postos de retirada</h1>
+            <p class="lead text-muted">Encontre-nos mais próximo de você!</p>
+        </div>
+    </section>
+    <!--END OF ABOUT TITLE-->
+    <div class="text-center">
+        <picture>
+            <img
+                src="https://maps.googleapis.com/maps/api/staticmap?
+                center=-22.736228332400554,-47.328626569270554
+                &zoom=14
+                &size=1000x500
+                &markers=%7C-22.73875552361881,-47.333304213483856
+                &markers=%7C-22.73681240164196,-47.3218202885741
+                &markers=%7C-22.729847999023413,-47.335106774291845
+                &markers=%7C-22.74526054501492,-47.31653870418941
+                &markers=%7C-22.729315188589933,-47.30874011474639
+                &markers=%7C-22.72668916398735,-47.31616734278737
+                &key=AIzaSyD7Li5R1oe1ab9kYQNEIVDqjWzrCzmdTJI" alt="Postos de retirada"/>
+        </picture>
+    </div>
+</main>
+
+<script crossorigin="anonymous" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
